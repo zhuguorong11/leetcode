@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;otal Hamming Distance&apos; to &apos;total Hamming Distance&apos;" description="Rename resource &apos;otal Hamming Distance&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/otal Hamming Distance" name="total Hamming Distance" stamp="1510025960123" updateReferences="true"/>
+</session>

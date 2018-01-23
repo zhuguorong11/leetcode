@@ -1,0 +1,50 @@
+import java.util.ArrayList;
+
+/**
+ * 
+给一个整数数组，调整每个数的大小，使得相邻的两个数的差不大于一个给定的整数target，调整每个数的代价为调整前后的差的绝对值，写一个函数求调整代价之和最小是多少。
+
+注意事项：
+你可以假设数组中每个整数都是正整数，且小于等于100。
+
+格式：
+
+输入依次输入一个整数数组 num 和一个数字target ，最后输出最小调整代价之和。
+
+样例输入
+
+num = [ 1，4，2，3 ]
+target = 1
+
+样例输出
+
+2  // [ 2，3，2，3 ]
+ * @author zhugr
+ *
+ */
+public class Solution {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	/*
+	 * 类似与背包问题
+	 * i表示数组第i个元素，j从0 到100进行遍历。dp[i][j]表示第i个元素变成j的最小调整代价
+	 */
+	public int minAdjustmentCost(ArrayList<Integer> nums, int target){
+		if(nums.size()<2)  {  
+            return 0;  
+        }  
+		int m = nums.size();
+		int[][] dp = new int[m][101];/* 0 ~ 100 */
+		/* inital first row */
+		for(int i = 0; i < 101; ++i){
+			dp[0][i] = Math.abs(nums.get(0) - i);
+		}
+		/* i row just impact from i - 1 row */
+		for(int i = 1; i < m; i++){
+			
+		}
+	}
+}

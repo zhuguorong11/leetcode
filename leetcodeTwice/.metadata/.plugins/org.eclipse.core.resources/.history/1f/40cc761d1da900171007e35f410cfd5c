@@ -1,0 +1,57 @@
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * The n-queens puzzle is the problem of placing n queens on an n¡Án chessboard
+ * such that no two queens attack each other. Given an integer n, return all
+ * distinct solutions to the n-queens puzzle.
+ * 
+ * Each solution contains a distinct board configuration of the n-queens'
+ * placement, where 'Q' and '.' both indicate a queen and an empty space
+ * respectively.
+ * 
+ * For example, There exist two distinct solutions to the 4-queens puzzle:
+ * 
+ * [ [".Q..", // Solution 1 "...Q", "Q...", "..Q."],
+ * 
+ * ["..Q.", // Solution 2 "Q...", "...Q", ".Q.."] ]
+ * 
+ * @author zhugr
+ *
+ */
+public class Solution {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public List<List<String>> solveNQueens(int n) {
+		List<List<String>> res = new ArrayList<List<String>>();
+		if(n <= 0)
+			return res;
+		helper(n, 0, res, new ArrayList<>(), new boolean[n], new boolean[2 * n], new boolean[2 * n]);
+		return res;
+	}
+	/**
+	 * 
+	 * @param n size
+	 * @param row  current row index
+	 * @param res 
+	 * @param curRow current row set
+	 * @param cols judge whether there has queue at this column
+	 * @param dl1 judge whether there has queue at this diagonals 1
+	 * @param dl2 judge whether there has queue at this diagonals 2
+	 */
+	public void helper(int n, int row , List<List<String>> res, List<String> curRow,boolean[] cols,boolean[] diagonals1,boolean[] diagonals2){
+		if(curRow.size() == n)
+		{
+			res.add(new ArrayList<>(curRow));
+			return ;
+		}
+		for(int i = row; i < n; ++i){
+			
+		}
+
+	}
+}
