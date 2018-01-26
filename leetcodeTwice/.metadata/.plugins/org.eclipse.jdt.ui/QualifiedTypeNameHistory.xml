@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="Jredis1"/>
 <fullyQualifiedTypeName name="redis.clients.jedis.JedisPoolConfig"/>
 <fullyQualifiedTypeName name="redis.clients.jedis.JedisPool"/>
 <fullyQualifiedTypeName name="redis.clients.jedis.Jedis"/>
@@ -45,7 +44,6 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="Interval"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="UnionSet"/>
 <fullyQualifiedTypeName name="javax.sound.midi.Instrument"/>
 <fullyQualifiedTypeName name="javax.management.loading.MLet"/>
@@ -60,4 +58,6 @@
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="TreeNode"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.awt.image.RescaleOp"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
