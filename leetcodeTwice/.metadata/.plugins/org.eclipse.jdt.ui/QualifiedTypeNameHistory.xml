@@ -42,7 +42,6 @@
 <fullyQualifiedTypeName name="javax.lang.model.element.Element"/>
 <fullyQualifiedTypeName name="java.security.cert.TrustAnchor"/>
 <fullyQualifiedTypeName name="TreeNode"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="java.awt.image.RescaleOp"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
@@ -60,4 +59,5 @@
 <fullyQualifiedTypeName name="java.sql.SQLNonTransientConnectionException"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="Solution"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
 </qualifiedTypeNameHistroy>
