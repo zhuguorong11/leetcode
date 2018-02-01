@@ -63,9 +63,9 @@
       <name>Phil Webb</name>
     </author>
     <id>tag:spring.io,2018-01-30:3151</id>
-    <updated>2018-01-31T05:05:49Z</updated>
+    <updated>2018-01-31T05:05:00Z</updated>
     <content type="html">&lt;p&gt;Spring Boot 1.5.10 has been released and is is now available from &lt;a href="http://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and &lt;a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.springframework.boot%22"&gt;Maven Central&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This release includes an important fix for security vulnerability CVE-2018-1196 (disclosure details will be published soon), which can affect anyone using Spring Boot&amp;rsquo;s systemd and init.d service support. It also provides the latest version of Spring Security which fixed &lt;a href="https://pivotal.io/security/cve-2017-8030"&gt;CVE-2017-8030&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This release includes an important fix for security vulnerability CVE-2018-1196 (disclosure details will be published soon), which can affect anyone using Spring Boot&amp;rsquo;s systemd and init.d service support. It also provides the latest version of Spring Security which fixed &lt;a href="https://pivotal.io/security/cve-2018-1199"&gt;CVE-2018-1199&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In addition the security fix, Spring Boot 1.5.10 includes &lt;a href="https://github.com/spring-projects/spring-boot/milestone/96?closed=1"&gt;over 55 fixes, improvements and dependency updates&lt;/a&gt;. Thanks to all that have contributed with issue reports and pull requests.&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://projects.spring.io/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/1.5.10.RELEASE/reference/htmlsingle"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
@@ -77,7 +77,7 @@
       <name>Josh Long</name>
     </author>
     <id>tag:spring.io,2018-01-31:3152</id>
-    <updated>2018-01-31T01:34:39Z</updated>
+    <updated>2018-01-31T01:34:00Z</updated>
     <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! This week I was in Los Angeles and Chicago and now I&amp;rsquo;m in San Francisco, taking meetings with Pivotal ecosystem folks and customers. We&amp;rsquo;ve got an incredibly busy week&amp;rsquo;s worth of stuff ahead of us, so let&amp;rsquo;s get to it! &lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Reactor project lead Stephane Maldini has announced &lt;a href="https://spring.io/blog/2018/01/30/reactor-bismuth-sr5-is-out"&gt;that Reactor Bismuth-SR5&lt;/a&gt; is out with fixes, Reactive Streams 1.0.2, Netty 4.1.20 and a few new cool features there&lt;/li&gt;
@@ -95,7 +95,7 @@
   &lt;li&gt;&lt;a href="https://twitter.com/wattersjames/status/957982272921092097?ref_src=twcamp%5Eshare%7Ctwsrc%5Eios%7Ctwgr%5Ecom.blork.Pinner.AddBookmarkExtension"&gt;Beyond copying paper processes with James Watters&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Check out this webinar series that &lt;a href="https://twitter.com/kenhuiny/status/958073050863427584"&gt;introduces Hashicorp Vault and, among other things, Spring Cloud Vault&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;by Gary Russell announces that a &lt;a href="https://twitter.com/springcentral/status/958080502312837120"&gt;bunch of Spring Messaging releases&lt;/a&gt; (Integration, AMQP, Spring for Apache Kafka) maintenance releases are out, just in time for the latest Spring Boot milestone.&lt;/li&gt;
-  &lt;li&gt;Pieter Humphrey shares the good news: Spring Boot had a 300% increase in maven downloads, Initializr generated 4.72M projects, and it&amp;rsquo;s the 8th most popular &lt;a href="https://twitter.com/PieterHumphrey/status/958074921493585920"&gt;project by Github stars that are written using Java&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Pieter Humphrey shares the good news: Spring Boot had a 300% increase in maven downloads, Initializr generated 4.72M projects, is the 8th most popular &lt;a href="https://twitter.com/PieterHumphrey/status/958074921493585920"&gt;project by Github stars that are written using Java&lt;/a&gt; and the &lt;a href="https://github.com/search?l=Java&amp;o=desc&amp;q=stars%3A%3E1&amp;s=forks&amp;type=Repositories"&gt;top Java project by forks&lt;/a&gt; as of this writing.&lt;/li&gt;
   &lt;li&gt;Related, it&amp;rsquo;s super cool that Spring Boot &lt;a href="https://t.co/Nza5FFb3Je"&gt;has passed 20,000 stars on Github!&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;There are some very good submissions for the Spring I/O conference in Barcelona, Spain, &lt;a href="https://2018.springio.net/"&gt;but the CFP is still open! Keep &amp;rsquo;em coming!&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Datadog has a &lt;a href="https://www.datadoghq.com/blog/rabbitmq-monitoring/?_lrsc=df5f7713-24df-4158-9c14-675148fd7a1d"&gt;nice post on monitoring RabbitMQ&lt;/a&gt;&lt;/li&gt;
@@ -231,16 +231,16 @@ or reach out to me &lt;a href="https://twitter.com/joe_grandja"&gt;@joe_grandja&
 &lt;/div&gt;</content>
   </entry>
   <entry>
-    <title>CVE-2017-8030: Spring Security 5.0.1, 4.2.4, 4.1.5 Released</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/01/30/cve-2017-8030-spring-security-5-0-1-4-2-4-4-1-5-released" />
+    <title>CVE-2018-1199: Spring Security 5.0.1, 4.2.4, 4.1.5 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/01/30/cve-2018-1199-spring-security-5-0-1-4-2-4-4-1-5-released" />
     <category term="releases" label="Releases" />
     <author>
       <name>Rob Winch</name>
     </author>
     <id>tag:spring.io,2018-01-29:3148</id>
-    <updated>2018-01-30T02:55:55Z</updated>
+    <updated>2018-01-30T02:55:00Z</updated>
     <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;We have released Spring Security 5.0.1, 4.2.4, and 4.1.5 to address &lt;a href="https://pivotal.io/security/cve-2017-8030"&gt;CVE-2017-8030: Security bypass with static resources&lt;/a&gt; Users are encouraged to update immediately.&lt;/p&gt;
+&lt;p&gt;We have released Spring Security 5.0.1, 4.2.4, and 4.1.5 to address &lt;a href="https://pivotal.io/security/cve-2018-1199"&gt;CVE-2018-1199: Security bypass with static resources&lt;/a&gt; Users are encouraged to update immediately.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="paragraph"&gt;
 &lt;p&gt;&lt;a href="http://projects.spring.io/spring-security/"&gt;Project Site&lt;/a&gt; |
@@ -255,14 +255,14 @@ or reach out to me &lt;a href="https://twitter.com/joe_grandja"&gt;@joe_grandja&
       <name>Gary Russell</name>
     </author>
     <id>tag:spring.io,2018-01-28:3147</id>
-    <updated>2018-01-29T20:15:28Z</updated>
+    <updated>2018-01-29T20:15:00Z</updated>
     <content type="html">&lt;div class="paragraph"&gt;
 &lt;p&gt;We are pleased to announce the availability of the following maintenance releases; users are encouraged to upgrade at the earliest opportunity.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="ulist"&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Spring Integration - &lt;a href="https://jira.spring.io/jira/secure/ReleaseNote.jspa?projectId=10121&amp;amp;version=16627"&gt;5.0.1&lt;/a&gt; and &lt;a href="https://jira.spring.io/jira/secure/ReleaseNote.jspa?projectId=10121&amp;amp;version=16631"&gt;4.3.14&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Spring Integration - &lt;a href="https://jira.spring.io/jira/secure/ReleaseNote.jspa?projectId=10121&amp;amp;version=16627"&gt;5.0.1&lt;/a&gt;, &lt;a href="https://jira.spring.io/jira/secure/ReleaseNote.jspa?projectId=10121&amp;amp;version=16631"&gt;4.3.14&lt;/a&gt; and &lt;a href="https://jira.spring.io/jira/secure/ReleaseNote.jspa?projectId=10121&amp;amp;version=15806"&gt;4.2.13&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Spring Integration for Apache Kafka &lt;a href="https://github.com/spring-projects/spring-integration-kafka/releases/tag/v3.0.1.RELEASE"&gt;3.0.1&lt;/a&gt;&lt;/p&gt;
@@ -276,8 +276,8 @@ or reach out to me &lt;a href="https://twitter.com/joe_grandja"&gt;@joe_grandja&
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="paragraph"&gt;
-&lt;p&gt;Spring Integration 4.3.13, Spring AMQP 1.7.6 will be used in the upcoming Spring Boot 1.5.10 release.
-Spring Integration 5.0.1, Spring AMQP 2.0.2 and Spring for Apache Kafka 2.1.2 will be used in the upcoming release candidate for Spring Boot 2.0.&lt;/p&gt;
+&lt;p&gt;Spring Integration &lt;code&gt;4.3.13&lt;/code&gt;, Spring AMQP &lt;code&gt;1.7.6&lt;/code&gt; will be used in the upcoming Spring Boot &lt;code&gt;1.5.10&lt;/code&gt; release.
+Spring Integration &lt;code&gt;5.0.1&lt;/code&gt;, Spring AMQP &lt;code&gt;2.0.2&lt;/code&gt; and Spring for Apache Kafka &lt;code&gt;2.1.2&lt;/code&gt; will be used in the upcoming release candidate for Spring Boot &lt;code&gt;2.0&lt;/code&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="paragraph"&gt;
 &lt;p&gt;See the respective project pages at &lt;a href="https://spring.io/projects"&gt;spring.io/projects&lt;/a&gt; for more information.&lt;/p&gt;
