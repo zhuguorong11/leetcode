@@ -5,7 +5,31 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2018-01-31T07:31:24Z</updated>
+  <updated>2018-01-31T12:16:18Z</updated>
+  <entry>
+    <title>Spring IO Platform Brussels SR7</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/01/31/spring-io-platform-brussels-sr7" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Andy Wilkinson</name>
+    </author>
+    <id>tag:spring.io,2018-01-31:3154</id>
+    <updated>2018-01-31T12:16:18Z</updated>
+    <content type="html">&lt;p&gt;I am pleased to announce that &lt;a href="http://platform.spring.io/platform"&gt;Spring IO Platform&lt;/a&gt; Brussels-SR7 is now available from both &lt;a href="https://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and Maven Central. &lt;/p&gt;
+&lt;p&gt;This maintenance release upgrades the versions of a number of the projects in the Platform:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring AMQP 1.7.6&lt;/li&gt;
+  &lt;li&gt;Spring Boot 1.5.10&lt;/li&gt;
+  &lt;li&gt;Spring Data Ingalls-SR10&lt;/li&gt;
+  &lt;li&gt;Spring Framework 4.3.14&lt;/li&gt;
+  &lt;li&gt;Spring Integration 4.3.14&lt;/li&gt;
+  &lt;li&gt;Spring Retry 1.2.2&lt;/li&gt;
+  &lt;li&gt;Spring Security 4.2.4&lt;/li&gt;
+  &lt;li&gt;Spring Web Flow 2.4.7&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The versions of a number of third-party dependencies have also been updated.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://platform.spring.io/platform"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/platform/docs/Brussels-SR7/reference/htmlsingle"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Spring Boot 2.0.0 RC1 available now</title>
     <link rel="alternate" href="https://spring.io/blog/2018/01/31/spring-boot-2-0-0-rc1-available-now" />
@@ -14,7 +38,7 @@
       <name>Phil Webb</name>
     </author>
     <id>tag:spring.io,2018-01-31:3153</id>
-    <updated>2018-01-31T07:31:24Z</updated>
+    <updated>2018-01-31T07:31:00Z</updated>
     <content type="html">&lt;p&gt;On behalf of the team, it is my great pleasure to announce that Spring Boot 2.0.0.RC1 has been released and is now available from &lt;a href="http://repo.spring.io/milestone/"&gt;our milestone repository&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;This release closes a massive &lt;a href="https://github.com/spring-projects/spring-boot/milestone/80?closed=1"&gt;313 issues and pull requests&lt;/a&gt;, and is our first release candidate. At this point we&amp;rsquo;re not anticipating that any major API changes or new features will be added before our final 2.0 GA release.&lt;/p&gt;
 &lt;p&gt;We&amp;rsquo;ve refined a number of items from previous milestone, and provide a number of notable new features including:&lt;/p&gt;
@@ -27,7 +51,7 @@
 &lt;/ul&gt;
 &lt;p&gt;This release also picks up &lt;a href="https://github.com/spring-projects/spring-boot/milestone/96?closed=1"&gt;57 issues&lt;/a&gt; that were closed for the &lt;a href="https://spring.io/blog/2018/01/31/spring-boot-1-5-10-available-now"&gt;recent 1.5.10 release&lt;/a&gt;, including an important fix for security vulnerability CVE-2018-1196.&lt;/p&gt;
 &lt;p&gt;For a complete list of changes, and upgrade instructions, see the &lt;a href="https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0.0-RC1-Release-Notes"&gt;Spring Boot 2.0.0.RC1 Release Notes&lt;/a&gt; on the WIKI. &lt;/p&gt;
-&lt;p&gt;To get started with Spring Boot 2.0.0 RC1 and discover those new feature, you can easily bootstrap a new project on &lt;a href="https://start.spring.io"&gt;start.spring.io&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To get started with Spring Boot 2.0.0 RC1 and discover those new features, you can easily bootstrap a new project on &lt;a href="https://start.spring.io"&gt;start.spring.io&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Thanks to everyone that has contributed to Spring Boot 2.0 so far!&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://projects.spring.io/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/2.0.0.RC1/reference/htmlsingle"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
@@ -1331,49 +1355,6 @@ class EmployeeController {
   &lt;li&gt;I &lt;a href="https://www.youtube.com/watch?v=9Ef2Y4Dtp1I"&gt;gave an interview to Faros Belgium&lt;/a&gt; during last month&amp;rsquo;s epic SpringOne Platform 2017 event.&lt;/li&gt;
   &lt;li&gt;The &lt;a href="https://cloudfoundry.org/meltdown-spectre-attacks/"&gt;Cloud Foundry Foundation security team has detailed the response for Cloud Foundry users for the Spectrum and Meltdown flaws&lt;/a&gt; recently discovered in CPUs. These kinds of vulnerabilities are &lt;em&gt;exactly&lt;/em&gt; where a centralized platform like Cloud Foundry can make all the difference in the world - mitigate the issue centrally and see it deployed automatically.&lt;/li&gt;
   &lt;li&gt;Tristan Perry put together &lt;a href="https://www.tristanperry.com/java8/spring/2017/12/23/java8-spring-cloud-microservice-demo.html"&gt;a nice Spring Cloud microservices tutorial&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring (7th Anniversary Edition) - January 2nd, 2017</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/01/03/this-week-in-spring-7th-anniversary-edition-january-2nd-2017" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2018-01-03:3135</id>
-    <updated>2018-01-03T07:41:00Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! I hope you had a wonderful, safe and fruitful new year celebration. &lt;/p&gt;
-&lt;p&gt;This is the first roundup of the new year and so it is also the &lt;em&gt;7th year anniversary&lt;/em&gt; of my starting this column. Every Tuesday, without fail (come holiday, sick-day, flights or frights!), since the first week of January 2011, I&amp;rsquo;ve put together this roundup and it has been, and continues to be, an honor. As usual, I&amp;rsquo;m always happy to have feedback and suggestions from you, the most amazing community ever! Don&amp;rsquo;t hesitate to reach me on &lt;a href="http://twitter.com/Starbuxman"&gt;Twitter (@starbuxman)&lt;/a&gt; &lt;a href="mailto:josh@joshlong.com"&gt;or by email&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Over time, the content covered in this blog has changed. I include things that the Spring ecosystem encompasses like NoSQL/big-data, cloud computing, web application discussions, Java in general, testing, and even some discussions of agile and culture. It&amp;rsquo;s a growing, living thing because Spring is itself an dynamic and organic project. I&amp;rsquo;ve started doing screencasts - eleven videos at a time for a &amp;ldquo;season&amp;rdquo; - called &lt;em&gt;Spring Tips&lt;/em&gt; for a couple of years now, too. These join my books, training videos, talks, blogs, podcasts, and social media as avenues by which I try to bring Spring to an ever growing, inquiring and inspiring community. It&amp;rsquo;s such a privilege to work on something that I love and share that passion with others who also love it. Thank YOU. &lt;/p&gt;
-&lt;p&gt;Now, as usual, we&amp;rsquo;ve got a &lt;em&gt;lot&lt;/em&gt; to cover, so let&amp;rsquo;s get to it.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Check out &lt;a href="https://pivotal.io/customers/corelogic"&gt;CoreLogics&amp;rsquo;s Spring Cloud Data Flow-based case-study&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Cloud ninja Ryan Baxter &lt;a href="https://spring.io/blog/2017/12/28/spring-cloud-dalston-sr5-released"&gt;just announced Spring Cloud Dalston SR5&lt;/a&gt;. There&amp;rsquo;s a lot to love here so get the bits now.&lt;/li&gt;
-  &lt;li&gt;this &lt;em&gt;really&lt;/em&gt; detailed look on &lt;em&gt;The Curious Developer&lt;/em&gt; blog at &lt;a href="https://thecuriousdev.org/new-in-spring-boot-2/"&gt;some of the new features in Spring Boot 2.0&lt;/a&gt; is well-worth your attention. Great read.&lt;/li&gt;
-  &lt;li&gt;This seems interesting - &lt;a href="https://www.marcobehler.com/episodes/91-what-s-new-in-spring-5-the-webflux-framework"&gt;Marco Behler has a video introducing Spring WebFlux&lt;/a&gt;, the reactive web runtime for Spring Framework 5.0.&lt;/li&gt;
-  &lt;li&gt;The Cloud Foundry Foundation Security Team &lt;a href="https://cloudfoundry.org/cve-2018-1190/"&gt;has released a fix&lt;/a&gt; for a cross-site scripting CVE on Cloud Foundry. Upgrade now!&lt;/li&gt;
-  &lt;li&gt;I liked Oded Shopen&amp;rsquo;s post looking at &lt;a href="https://medium.com/@odedia/comparing-kubernetes-to-pivotal-cloud-foundry-a-developers-perspective-6d40a911f257?_lrsc=2e6b583d-0c94-4ae5-b3ef-f227b036f03d"&gt;Kubernetes versus Cloud Foundry, from a developer&amp;rsquo;s perspective&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;I liked &lt;a href="https://dzone.com/articles/creating-a-reactive-restful-web-service-using-spri-1"&gt;this post by Ashes Sarin&lt;/a&gt; that looks at how to build a reactive Spring WebFlux application that talks to reactive Spring Data MongoDB.&lt;/li&gt;
-  &lt;li&gt;Dan Baskette linked to a really nice project by Brian McClain that sets &lt;a href="https://github.com/BrianMMcClain/riff-demos"&gt;up the Pivotal serverless platform Project Riff for you&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Want to &lt;a href="https://twitter.com/christzolov/status/947057883170201600?ref_src=twcamp%5Eshare%7Ctwsrc%5Eios%7Ctwgr%5Ecom.blork.Pinner.AddBookmarkExtension"&gt;use SQL-queries with the Apache Geode in-memory data-grid&lt;/a&gt;? Check out this talk from SpringOne Platform 2017 by Christian Tzolov&lt;/li&gt;
-  &lt;li&gt;Tristan Perry put together &lt;a href="https://www.tristanperry.com/java8/spring/2017/12/23/java8-spring-cloud-microservice-demo.html"&gt;a nice Spring Cloud microservices tutorial&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;I noticed that the good Dr. Syer has a &lt;a href="https://github.com/dsyer/auth-server-client"&gt;useful example of how an OAuth authorization server could be a client of itself&lt;/a&gt;, which it might need to be if the node is also a gateway.&lt;/li&gt;
-  &lt;li&gt;I love this roundup of the new features in the Java &lt;a href="https://mahmoudanouti.wordpress.com/2017/12/23/what-is-project-amber-in-java/"&gt;Project Amber&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/tomoTaka01/eureka-feign"&gt;This&lt;/a&gt; is a cool Spring Boot and Eureka + Feign example.&lt;/li&gt;
-  &lt;li&gt;It was nice to see Java again take home the top prize for programming languages in 2017, &lt;a href="https://www.infoworld.com/article/3244262/application-development/2017-the-year-in-programming-languages.html"&gt;according to this InfoWorld article&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;I loved Victor Grazi&amp;rsquo;s amazing article &lt;a href="https://www.infoq.com/articles/Microservices-SpringBoot"&gt;on building microservices with Spring Boot and Spring Cloud&lt;/a&gt;. This is well worth a read.&lt;/li&gt;
-  &lt;li&gt;My fellow test-obsesses Spring fans should check out JUnit and Spring Test lead Sam Brannen&amp;rsquo;s &lt;a href="https://www.youtube.com/watch?time_continue=20&amp;v=h0Idcz71Aog"&gt;SpringOne Platform 2017 talk on testing with JUnit 5&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Kevin Van Houtte did a nice job in this post &lt;a href="https://ordina-jworks.github.io/microservices/2017/12/30/Secure-your-architecture-part2.html"&gt;&lt;em&gt;Securing your cloud-native microservice architecture in Spring&lt;/em&gt;&lt;/a&gt;- on the Ordina JWorks blog.&lt;/li&gt;
-  &lt;li&gt;Hello Jiccup! Check out this &lt;a href="https://github.com/creactiviti/spring-boot-starter-jiccup"&gt;Spring Boot integration with Jiccup&lt;/a&gt;, a Clojure inspired HTML rendering library.&lt;/li&gt;
-  &lt;li&gt;In this week&amp;rsquo;s &lt;a href="https://soundcloud.com/pivotal-insights/getting-hands-on-with-cqrs-and-event-sourcing-ep-41"&gt;episode of the &lt;em&gt;Pivotal Insights&lt;/em&gt; podcast&lt;/a&gt;, Jeff and Dormain are joined by Pivotal Senior Solutions Architect Ben Wilcock for a deep dive into building microservices applications using the command query responsibility segregation, or CQRS, architectural pattern and event sourcing.&lt;/li&gt;
-  &lt;li&gt;Meunster, Germany! I am &lt;a href="https://twitter.com/jug_ms/status/946743989339869185?ref_src=twcamp%5Eshare%7Ctwsrc%5Eios%7Ctwgr%5Ecom.blork.Pinner.AddBookmarkExtension"&gt;looking forward to presenting at your Java User Group&lt;/a&gt; on &lt;em&gt;Cloud Native (Reactive) Java&lt;/em&gt; on 10 January, 2018!&lt;/li&gt;
-  &lt;li&gt;The &lt;em&gt;Java Code Geeks&amp;rsquo;s&lt;/em&gt; Abhimanyu Prasad &lt;a href="https://www.javacodegeeks.com/2017/12/microservices-implementation-example-spring-boot.html"&gt;has an amazing post on implementating Spring Cloud for microservices&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Solingen, Germany! &lt;a href="https://twitter.com/codecentric/status/938383043424870400?ref_src=twcamp%5Eshare%7Ctwsrc%5Eios%7Ctwgr%5Ecom.blork.Pinner.AddBookmarkExtension"&gt;Spring is coming&lt;/a&gt;! I&amp;rsquo;ll be speaking for an afternoon &lt;a href="https://www.eventbrite.de/e/meet-the-experts-cloud-native-java-day-with-josh-long-tickets-40870596053"&gt;for this special Codecentric event. Register now!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring community member Michael Simons did &lt;a href="http://info.michael-simons.eu/2017/12/28/use-keycloak-with-your-spring-boot-2-application/"&gt;a great job introducing how to use Keycloak with Spring Boot 2-based applications&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;I love &lt;a href="https://www.ivm.at/ivm-news/393-what-the-agile-test-automation-part-2"&gt;this interview with &amp;ldquo;the king of the test automation,&amp;rdquo; Pivotal&amp;rsquo;s own Marcin Grzejszczak&lt;/a&gt;, about the Spring Cloud Pipelines project.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://cloudfoundry.org/data-driven-management-ensures-high-efficiency-in-the-healthcare-sector/"&gt;Data driven management ensures high efficiency in the healthcare sector&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Check out this talk from Spring Boot ninja Madhura Bhave and Pivotal marketing maestro Pieter Humphrey on &lt;a href="https://cloudfoundry.org/video-java-microservices-scale-cloud-foundry/"&gt;Java microservices at scale with Cloud Foundry&lt;/a&gt; from the Cloud Foundry Summit Silicon Valley 2017.&lt;/li&gt;
-  &lt;li&gt;This is another great talk from Cloud Foundry Summit 2017 &lt;a href="https://cloudfoundry.org/video-windows-server-containers-cloud-foundry/"&gt;on windows server containers and Cloud Foundry&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
 </feed>
