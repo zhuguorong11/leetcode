@@ -55,9 +55,9 @@
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="javax.print.attribute.standard.NumberUpSupported"/>
 <fullyQualifiedTypeName name="java.util.Map.Entry"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
-<fullyQualifiedTypeName name="Solution"/>
 <fullyQualifiedTypeName name="java.lang.Number"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="Solution"/>
 </qualifiedTypeNameHistroy>

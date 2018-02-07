@@ -5,7 +5,7 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2018-02-06T13:41:50Z</updated>
+  <updated>2018-02-06T13:41:00Z</updated>
   <entry>
     <title>Spring Data Lovelace M1 released.</title>
     <link rel="alternate" href="https://spring.io/blog/2018/02/06/spring-data-lovelace-m1-released" />
@@ -14,7 +14,7 @@
       <name>Christoph Strobl</name>
     </author>
     <id>tag:spring.io,2018-02-06:3159</id>
-    <updated>2018-02-06T13:41:50Z</updated>
+    <updated>2018-02-06T13:41:00Z</updated>
     <content type="html">&lt;p&gt;On behalf of the Spring Data team I¡¯m happy to announce the first milestone of the &lt;a href="https://en.wikipedia.org/wiki/Ada_Lovelace"&gt;Lovelace&lt;/a&gt; release train. The release ships over 200 tickets fixed! The most important new features are:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;JPA 2.2 result streaming.&lt;/li&gt;
@@ -46,7 +46,7 @@
   &lt;li&gt;Spring Data Redis 2.1 M1 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-redis/2.1.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/redis/docs/2.1.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/redis/docs/2.1.0.M1/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/redis/docs/2.1.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Spring Data Elasticsearch 3.1 M1 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-elasticsearch/3.1.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/elasticsearch/docs/3.1.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/elasticsearch/docs/3.1.0.M1/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/elasticsearch/docs/3.1.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Spring Data Couchbase 3.1 M1 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-couchbase/3.1.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/couchbase/docs/3.1.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/couchbase/docs/3.1.0.M1/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/couchbase/docs/3.1.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Data JDBC 1.0 M1 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-jdbc/1.0.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jdbc/docs/1.0.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jdbc/docs/1.0.0.M1/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jdbc/docs/1.0.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data JDBC 1.0 M1 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-jdbc/1.0.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jdbc/docs/1.0.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="https://github.com/spring-projects/spring-data-jdbc/blob/1.0.0.M1/README.adoc"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jdbc/docs/1.0.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
   <entry>
