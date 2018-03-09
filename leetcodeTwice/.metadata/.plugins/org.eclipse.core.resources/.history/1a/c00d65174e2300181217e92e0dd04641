@@ -1,0 +1,13 @@
+/**
+ * Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
+ * @author zhugr
+ *
+ */
+public class Solution {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
