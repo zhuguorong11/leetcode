@@ -30,7 +30,7 @@ public class Solution {
 	public List<Integer> intervalMinNumber(int[] nums, List<Interval> quries) {
 		if (nums.length == 0 || quries.isEmpty()) {
 			return new ArrayList<>();
-		}
+		}	
 		List<Integer> res = new ArrayList<>();
 		// 构建了一棵树
 		SegmentTreeNode root = build(0, nums.length - 1, nums);

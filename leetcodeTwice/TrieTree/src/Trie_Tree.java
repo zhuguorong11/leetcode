@@ -148,7 +148,6 @@ public class Trie_Tree {
 			}
 
 			root = root.childs[index];
-
 		}
 		/// 结果包括该前缀本身
 		/// 此处利用之前的前序搜索方法进行搜索
@@ -197,7 +196,7 @@ public class Trie_Tree {
 	}
 }
 class Node {
-	public  int dumpli_num;//// 该字串的重复数目， 该属性统计重复次数的时候有用,取值为0、1、2、3、4、5……
+	public  int dumpli_num;//// 到达末尾该字串的重复数目， 该属性统计重复次数的时候有用,取值为0、1、2、3、4、5……
 	public int prefix_num;/// 以该字串为前缀的字串数， 应该包括该字串本身！！！！！
 	public Node childs[];//// 此处用数组实现，当然也可以map或list实现以节省空间
 	public boolean isLeaf;/// 是否为单词节点

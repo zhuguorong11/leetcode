@@ -1,0 +1,46 @@
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Given a list of unique words, find all pairs of distinct indices (i, j) in
+ * the given list, so that the concatenation of the two words, i.e. words[i] +
+ * words[j] is a palindrome.
+ * 
+ * Example 1: Given words = ["bat", "tab", "cat"] Return [[0, 1], [1, 0]] The
+ * palindromes are ["battab", "tabbat"] Example 2: Given words = ["abcd",
+ * "dcba", "lls", "s", "sssll"] Return [[0, 1], [1, 0], [3, 2], [2, 4]] The
+ * palindromes are ["dcbaabcd", "abcddcba", "slls", "llssssll"]
+ * 
+ * @author zhugr
+ *
+ */
+public class Solution {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public List<List<Integer>> palindromePairs(String[] words) {
+		List<List<Integer>> res = new ArrayList<List<Integer>>();
+		if (words == null || words.length == 0) {
+			return res;
+		}
+		
+		
+		
+		return res;
+	}
+
+	public boolean isPal(String s, int start, int end) {
+		char[] chs = s.toCharArray();
+		while (start < end) {
+			if (chs[start] != chs[end]) {
+				return false;
+			}
+			++start;
+			--end;
+		}
+		return true;
+	}
+}

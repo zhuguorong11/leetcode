@@ -21,13 +21,12 @@ public class Solution {
 
 	public int friends(int[][] arr, int n, int m) {
 		UnionSet unionSet = new UnionSet(n);
-		for (int i = 1; i < m; ++i) {
+		for (int i = 0; i < m; ++i) {
 			unionSet.union(arr[i][0], arr[i][1]);
 		}
 		return unionSet.countRoot();
 	}
 }
-
 class UnionSet {
 	/**
 	 * 
@@ -55,7 +54,6 @@ class UnionSet {
 		}
 		return root;
 	}
-
 	/* 两个朋友的关系 */
 	public void union(int r1, int r2) {
 		int root1 = find(r1);
@@ -67,7 +65,6 @@ class UnionSet {
 			parents[root2] = root1;
 		}
 	}
-
 	public int countRoot() {
 		int count = 0;
 		/*从1开始 统计parent是-1的即为根节点*/
