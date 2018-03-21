@@ -15,8 +15,6 @@ public class Solution {
 
 	}
 
-	
-	//TLE
 	public ListNode mergeKLists(ListNode[] lists) {
 		if (lists.length == 0) {
 			return null;
@@ -75,15 +73,7 @@ public class Solution {
 				queue.offer(node);
 			}
 		}
-		while(!queue.isEmpty()){
-			copy.next = queue.poll();
-			copy = copy.next;
-			//当为空的时候，表示来到了一个链表的末尾，那么就无需放入优先队列里进行排序了
-			if(copy.next != null){
-				queue.add(copy.next);
-			}
-		}
-		return res.next;
+		
 	}
 }
 
