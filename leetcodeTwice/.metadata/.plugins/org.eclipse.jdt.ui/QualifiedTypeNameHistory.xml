@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="SegmentTreeNode"/>
-<fullyQualifiedTypeName name="java.util.IllegalFormatFlagsException"/>
 <fullyQualifiedTypeName name="java.lang.VirtualMachineError"/>
 <fullyQualifiedTypeName name="javax.print.attribute.standard.Copies"/>
 <fullyQualifiedTypeName name="Interval"/>
@@ -10,7 +8,6 @@
 <fullyQualifiedTypeName name="javax.management.loading.MLet"/>
 <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
 <fullyQualifiedTypeName name="java.awt.Robot"/>
-<fullyQualifiedTypeName name="java.lang.Deprecated"/>
 <fullyQualifiedTypeName name="java.awt.datatransfer.FlavorTable"/>
 <fullyQualifiedTypeName name="javax.lang.model.element.Element"/>
 <fullyQualifiedTypeName name="java.security.cert.TrustAnchor"/>
@@ -23,7 +20,6 @@
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="java.sql.SQLNonTransientConnectionException"/>
 <fullyQualifiedTypeName name="javax.net.ssl.HandshakeCompletedEvent"/>
-<fullyQualifiedTypeName name="javax.print.attribute.standard.NumberUpSupported"/>
 <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 <fullyQualifiedTypeName name="java.lang.Number"/>
 <fullyQualifiedTypeName name="java.nio.charset.MalformedInputException"/>
@@ -31,7 +27,6 @@
 <fullyQualifiedTypeName name="Solution.ListNode"/>
 <fullyQualifiedTypeName name="java.util.function.IntPredicate"/>
 <fullyQualifiedTypeName name="java.awt.Frame"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="javax.print.DocPrintJob"/>
 <fullyQualifiedTypeName name="java.lang.BootstrapMethodError"/>
 <fullyQualifiedTypeName name="Node"/>
@@ -60,4 +55,9 @@
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="javax.print.attribute.standard.NumberUpSupported"/>
+<fullyQualifiedTypeName name="java.lang.Iterable"/>
+<fullyQualifiedTypeName name="javax.xml.crypto.dsig.keyinfo.RetrievalMethod"/>
+<fullyQualifiedTypeName name="java.lang.Deprecated"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
 </qualifiedTypeNameHistroy>
