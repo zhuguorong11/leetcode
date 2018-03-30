@@ -36,6 +36,12 @@ public class Test1 {
 		queue.add(5);
 		queue.add(1);
 		System.out.println(queue.poll());
+		
+		Integer aa1 = new Integer(8);
+		Integer bb = 8;
+		int cc= 8;
+		System.out.println(aa1==bb);
+		System.out.println(aa1==cc);
 	}
 	
 }

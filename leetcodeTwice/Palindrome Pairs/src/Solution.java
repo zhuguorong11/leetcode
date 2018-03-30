@@ -21,7 +21,6 @@ public class Solution {
 		// TODO Auto-generated method stub
 
 	}
-
 	public List<List<Integer>> palindromePairs(String[] words) {
 		List<List<Integer>> res = new ArrayList<List<Integer>>();
 		if (words == null || words.length == 0) {

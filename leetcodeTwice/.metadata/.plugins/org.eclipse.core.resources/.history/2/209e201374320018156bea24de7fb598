@@ -1,0 +1,14 @@
+
+public class Solution {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	public void search(){
+		
+	}
+	public int partition(int[] num, int low, int high){
+		
+	}
+}
