@@ -48,6 +48,17 @@ public class Solution {
 		return low;
 	}
 
+	//第k个数
+	int quicksort(int l, int r, int k){
+	    int pos = part(l,r);
+	    if(pos - l + 1 == k) 
+	    	return a[pos];
+	    else if(pos - l + 1> k) 
+	    	return quicksort(l,pos-1,k);
+	    else 
+	    	return quicksort(pos+1,r,k-(pos-l+1));
+	}
+
 	public void swap(int[] num, int i, int j) {
 		int tmp = num[i];
 		num[i] = num[j];

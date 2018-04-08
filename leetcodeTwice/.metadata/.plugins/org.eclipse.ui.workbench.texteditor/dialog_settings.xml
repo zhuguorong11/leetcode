@@ -6,12 +6,15 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="TREEIFY_THRESHOLD" key="selection"/>
+		<item value="hashCode" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="hashCode"/>
+			<item value="hashCOde"/>
+			<item value="hash"/>
 			<item value="TREEIFY_THRESHOLD"/>
 			<item value="addall"/>
 			<item value="count"/>

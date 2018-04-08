@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class Test {
 
@@ -7,6 +8,8 @@ public class Test {
 		string.concat("abc");
 		string.concat("123");
 		System.out.println(string);
+		ArrayList<Integer>[] lists = new ArrayList[5];
+	
 	}
 
 }
