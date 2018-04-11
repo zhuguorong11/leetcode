@@ -1,0 +1,58 @@
+/**
+ * 在数组中的两个数字，如果前面一个数字大于后面的数字，则这两个数字组成一个逆序对。输入一个数组,求出这个数组中的逆序对的总数P。
+ * 并将P对1000000007取模的结果输出。 即输出P%1000000007 输入描述: 题目保证输入的数组中没有的相同的数字 数据范围：
+ * 对于%50的数据,size<=10^4 对于%75的数据,size<=10^5 对于%100的数据,size<=2*10^5 示例1 输入
+ * 
+ * 1,2,3,4,5,6,7,0 输出
+ * 
+ * 7
+ */
+public class Solution {
+	public int InversePairs(int[] array) {
+		int len = array.length;
+		if (len == 0) {
+			return 0;
+		}
+		int[] copy = new int[len];
+		for (int i = 0; i < len; ++i) {
+			copy[i] = array[i];
+		}
+		long res = merge(copy, array, 0, len - 1);
+		return (int) res % 1000000007;
+	}
+
+	// 类似归并
+	public long merge(int[] copy, int[] array, int start, int end) {
+		if (start == end) {
+			// copy[start]=array[start];
+			return 0;
+		}
+		int mid = start + (end - start) / 2;
+		long leftCount = merge(copy, array, start, mid) % 1000000007;
+		long rightCount = merge(copy, array, mid + 1, end) % 1000000007;
+
+		int i = mid;
+		int j = end;
+		int index = end;
+		long count = 0;
+		while (i >= start && j >= mid + 1) {
+			if (array[i] > array[j]) {
+				count += j - mid;
+				copy[index--] = array[i--];
+				count = count % 1000000007;
+			} else {
+				copy[index--] = array[j--];
+			}
+		}
+		while (i >= start) {
+			copy[index--] = array[i--];
+		}
+		while (j >= mid + 1) {
+			copy[index--] = array[j--];
+		}
+		for (int s = start; s <= end; s++) {
+			array[s] = copy[s];
+		}
+		return (count + leftCount + rightCount) % 1000000007;
+	}
+}

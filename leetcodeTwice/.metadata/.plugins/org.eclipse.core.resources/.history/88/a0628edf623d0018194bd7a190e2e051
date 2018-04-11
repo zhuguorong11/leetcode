@@ -1,0 +1,19 @@
+
+public class Solution {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	public static void mergeSort(int[] nums, int start, int end){
+		if(start <= end){
+			int mid = start + (end - start) / 2;
+			mergeSort(nums, start, mid);
+			mergeSort(nums, mid + 1, end);
+			merge(nums, start, mid, mid + 1, end);
+		}
+	}
+	public static void merge(int[] nums, int start1, int end1, int start2, int end2){
+		
+	}
+}

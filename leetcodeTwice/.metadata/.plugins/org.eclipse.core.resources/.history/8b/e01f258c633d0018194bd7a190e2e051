@@ -1,0 +1,42 @@
+
+public class Solution {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] nums = {5,2,4,6,1};
+		mergeSort(nums, 0, nums.length - 1);
+		for(int n : nums){
+			System.out.print(n + " ");
+		}
+	}
+	public static void mergeSort(int[] nums, int start, int end){
+		if(start < end){
+			int mid = start + (end - start) / 2;
+			mergeSort(nums, start, mid);
+			mergeSort(nums, mid + 1, end);
+			merge(nums, start, mid, mid + 1, end);
+		}
+	}
+	public static void merge(int[] nums, int start1, int end1, int start2, int end2){
+		int i = start1;
+		int j = start2;
+		int[] tmp = new int[end2 - start1 + 1];
+		int index = 0;
+		while(i <= end1 && j <= end2){
+			if(nums[i] < nums[j]){
+				tmp[index++] = nums[i++];
+			}else{
+				tmp[index++] = nums[j++];
+			}
+		}
+		while(i <= end1){
+			tmp[index++] = nums[i++];
+		}
+		while(j <= end2){
+			tmp[index++] = nums[j++];
+		}
+		for(int k = start1; k < end2; ++k){
+			nums[k] = tmp[k];
+		}
+	}
+}
