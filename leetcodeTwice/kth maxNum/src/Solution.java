@@ -49,14 +49,14 @@ public class Solution {
 	}
 
 	//第k个数
-	int quicksort(int l, int r, int k){
-	    int pos = part(l,r);
+	int quicksort(int[] a,int l, int r, int k){
+	    int pos = part(a,l,r);
 	    if(pos - l + 1 == k) 
 	    	return a[pos];
 	    else if(pos - l + 1> k) 
-	    	return quicksort(l,pos-1,k);
+	    	return quicksort(a,l,pos-1,k);
 	    else 
-	    	return quicksort(pos+1,r,k-(pos-l+1));
+	    	return quicksort(a,pos+1,r,k-(pos-l+1));
 	}
 
 	public void swap(int[] num, int i, int j) {
